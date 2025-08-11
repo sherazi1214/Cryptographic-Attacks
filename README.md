@@ -45,8 +45,13 @@ Rainbow table ek badi list hoti hai jisme pehle se passwords ke hashes store hot
 ## the summary table
 
 ### Attack ---------------------------------------------------------Type	Explanation
+
 Downgrade Attack ---------------------------	Forces a system to use an older, weaker encryption version, making it easier to break.
+
 Side Channel Attack-----------------------------	Exploits physical leaks (e.g., power usage, timing, electromagnetic signals) to deduce the encryption key.
+
 Cryptovariable / Key Attack ----------------------	Focuses on guessing, stealing, or calculating the secret cryptographic key.
+
 Hash Attack ----------------------------------------	Attempts to find collisions or reverse-engineer the original input from a hash value.
+
 Rainbow Table Attack -----------------------------	Uses precomputed hash databases to quickly reverse hashes into original passwords.
